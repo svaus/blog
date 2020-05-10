@@ -3,7 +3,6 @@ title = "Go Code"
 
 copyright = "© 2020."
 draft = false
-#publishDir = "docs"
 
 # Pagination
 paginate = 3
