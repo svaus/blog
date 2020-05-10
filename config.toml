@@ -1,0 +1,18 @@
+baseURL = "https://example.com/"
+title = "Go Code"
+theme = "material"
+copyright = "© 2020."
+publishDir = "docs"
+
+[params]
+  author = "Sanket Verma"
+  description = "example"
+  github = "example"
+  twitter = "example"
+  misskey = "user profile url"
+  mastodon = "user profile url"
+  email = "sanket_verma@outlook.com"
+  utterances = "example/svaus.github.io"
+  avatar = "https://example.com/images/avatar.png"
+  url = "https://example.com"
+  contributions = "post"

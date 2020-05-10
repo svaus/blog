@@ -1,0 +1,7 @@
+[submodule "themes/material"]
+	path = themes/material
+	url = https://github.com/Xzya/hugo-material-blog.git
+[submodule "public"]
+	path = public
+	url = https://github.com/svaus/svaus.github.io.git
+	branch = master
