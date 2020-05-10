@@ -1,18 +1,25 @@
-baseURL = "https://example.com/"
+baseURL = "https://svaus.github.io/"
 title = "Go Code"
-theme = "material"
+
 copyright = "© 2020."
 publishDir = "docs"
+
+# Pagination
+paginate = 3
+paginatePath = "page"
+
+# Theme to use
+theme = "material"
 
 [params]
   author = "Sanket Verma"
   description = "example"
-  github = "example"
+  github = "https://github.com/svaus"
   twitter = "example"
-  misskey = "user profile url"
-  mastodon = "user profile url"
+  misskey = "https://avatars2.githubusercontent.com/u/30944697?s=460&u=82446fbf268e19e122d90c5a3ea9e866911823eb&v=4"
+  mastodon = "https://avatars2.githubusercontent.com/u/30944697?s=460&u=82446fbf268e19e122d90c5a3ea9e866911823eb&v=4"
   email = "sanket_verma@outlook.com"
   utterances = "example/svaus.github.io"
   avatar = "https://example.com/images/avatar.png"
-  url = "https://example.com"
+  url = "https://svaus.github.io/"
   contributions = "post"
