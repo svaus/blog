@@ -1,20 +1,20 @@
 ---
-title: "Sample DotNet Core Api with Serilog, Autofac, Swagger"
+title: "Dotnet Core Api with Serilog, Autofac, Swagger"
 date: 2020-05-10T13:06:28+10:00
 draft: false
 ---
 
-Sample DotNet Core Api project with :
+This blog post we will create a sample DotNet Core Api project with :
 
-- Serilog implementation with various sinks console, file, application insigths
-- Autofac
-- Swagger with ReDoc and Material Design
+1. Serilog implementation with various sinks console, file, application insigths
+2. Autofac
+3. Swagger with ReDoc and Material Design
 
 ## Tools used
 
-- VS Code
-- Aspnet Core 2.2 SDK
-- Azure (For Application Insights only)
+1. VS Code
+2. Aspnet Core 2.2 SDK
+3. Azure (For Application Insights only)
 
 
 ```cmd
@@ -86,7 +86,7 @@ And to appsettings.json file add the section for RollingFile. There is no code r
         "Name": "RollingFile",
           "Args": {
           "pathFormat": "logs\\log-{Date}.txt",
-          "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level}] {Message}{NewLine}{Exception}"
+          "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level}] {Message}{NewLine}{Exception}",
           }
         }
       ],
