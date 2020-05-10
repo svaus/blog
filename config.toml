@@ -14,7 +14,7 @@ theme = "material"
 
 [params]
   author = "Sanket Verma"
-  description = "example"
+  description = "Blogs for dotnet, azure and devops"
   github = "https://github.com/svaus"
   twitter = "example"
   misskey = "https://avatars2.githubusercontent.com/u/30944697?s=460&u=82446fbf268e19e122d90c5a3ea9e866911823eb&v=4"
