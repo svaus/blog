@@ -14,7 +14,7 @@ steps:
   inputs:
     source: 
     destination: '$(Build.ArtifactStagingDirectory)/public'
-    buildDrafts: true
+    
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: '$(Pipeline.Workspace)'
