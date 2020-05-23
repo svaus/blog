@@ -17,6 +17,6 @@ steps:
     
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)'
+    targetPath: '$(System.DefaultWorkingDirectory)/public'
     artifact: 'drop'
     publishLocation: 'pipeline'
