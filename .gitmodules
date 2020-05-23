@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/svaus/svaus.github.io.git
-	branch = master
