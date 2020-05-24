@@ -5,7 +5,7 @@ copyright = "© 2020."
 draft = false
 
 # Pagination
-paginate = 3
+paginate = 5
 paginatePath = "page"
 
 # Theme to use
@@ -19,7 +19,7 @@ theme = "material"
   misskey = "https://avatars2.githubusercontent.com/u/30944697?s=460&u=82446fbf268e19e122d90c5a3ea9e866911823eb&v=4"
   mastodon = "https://avatars2.githubusercontent.com/u/30944697?s=460&u=82446fbf268e19e122d90c5a3ea9e866911823eb&v=4"
   email = "sanket_verma@outlook.com"
-  utterances = "example/svaus.github.io"
+  utterances = "svaus/svaus.github.io"
   avatar = "https://avatars2.githubusercontent.com/u/30944697?s=460&u=82446fbf268e19e122d90c5a3ea9e866911823eb&v=4"
   url = "https://svaus.github.io/"
   contributions = "post"
