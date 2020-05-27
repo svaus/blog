@@ -15,8 +15,6 @@ paginatePath = "page"
 # Theme to use
 theme = "mermaid"
 
-[outputs]
-home = [ "HTML", "RSS", "JSON"]
 
 [params]
   author = "Sanket Verma"
