@@ -7,15 +7,15 @@ licenselink = "https://github.com/matcornic/hugo-theme-learn/blob/master/LICENSE
 description = "Documentation theme for Hugo, based on Grav Learn theme"
 homepage = "https://github.com/matcornic/hugo-theme-learn/"
 repo = "https://github.com/matcornic/hugo-theme-learn"
-tags = ["documentation", "grav", "learn", "doc", "search"]
+tags = ["documentation", "dotnet", "learn", "doc", "search"]
 features = ["documentation", "menu", "nested sections", "search", "mermaid"]
 min_version = 0.25
 
 [author]
-  name = "Mathieu Cornic"
-  homepage = "https://matcornic.github.io/"
+  name = "Sanket Verma"
+  homepage = "https://svaus.github.io/"
 
 [original]
-  name = "Grav Learn"
-  homepage = "https://learn.getgrav.org/"
-  repo = "https://github.com/getgrav/grav-learn"
+  name = "SV Go Code"
+  homepage = "https://svaus.github.io/"
+  repo = "https://github.com/svaus"
