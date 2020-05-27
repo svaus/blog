@@ -6,6 +6,17 @@ draft: false
 
 Creating a docker build agent for azure pipeline is very easy. There are few simple steps. We will be using chocoletey to create this agent. 
 
+Overall flow :
+{{<mermaid>}}
+
+graph TD
+  A("Build Docker Image")
+  A-->B("Push image Azure Container Registry")
+  B-->C("Pull from Azure Container Registry")
+  C-->D("Create Docker container instance")
+  D-->E("Registers with Azure DevOps organisation")
+{{</mermaid>}}
+
 Firstly create a Dockerfile where we can provide docker instructions. In this case I am using windows core 2019 image, but you can use any other images. 
 
 ```Dockerfile
@@ -145,6 +156,7 @@ Once this is done, you can easily create the docker container by running below c
 docker run -e AZP_URL=https://dev.azure.com/{username} -e AZP_TOKEN=$Env:AZP_TOKEN -e AZP_AGENT_NAME=$Env:AZP_Build_Agent_Name -e AZP_POOL=$Env:AZP_POOL myazpagent:latest
 
 ```
+
 
 Have fun !!
 

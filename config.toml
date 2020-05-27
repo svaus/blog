@@ -1,5 +1,9 @@
 baseURL = "https://svaus.github.io/"
-title = "Go Code"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+title = "SV Go Code"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
 
 copyright = "© 2020."
 draft = false
@@ -9,7 +13,10 @@ paginate = 5
 paginatePath = "page"
 
 # Theme to use
-theme = "material"
+theme = "mermaid"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
 
 [params]
   author = "Sanket Verma"
@@ -23,3 +30,19 @@ theme = "material"
   avatar = "https://avatars2.githubusercontent.com/u/30944697?s=460&u=82446fbf268e19e122d90c5a3ea9e866911823eb&v=4"
   url = "https://svaus.github.io/"
   contributions = "post"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+
+
+[Languages]
+[Languages.en]
+title = "Blogs for dotnet, azure and devops"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/svaus"
+weight = 10
