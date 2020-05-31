@@ -17,4 +17,6 @@ draft: false
 
 # Apply theme
 
+# Publish website
+
 # Conclusion
