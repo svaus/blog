@@ -4,10 +4,9 @@ date: 2020-05-31T11:04:26+10:00
 draft: false
 ---
 
-[![](https://mermaid.ink/img/eyJjb2RlIjoiam91cm5leVxudGl0bGUgQ3JlYXRlIG15IHdlYnNpdGVcbnNlY3Rpb24gQ3JlYXRlIGNvbnRlbnRcbiAgICBJbnN0YWxsIEh1Z286IDVcbiAgICBDcmVhdGUgd2Vic2l0ZTogNVxuICAgIEFwcGx5IHRoZW1lOiA1XG5zZWN0aW9uIFB1Ymxpc2ggdG8gR2l0SHViIFBhZ2VzXG4gICAgQ3JlYXRlIEdpdEh1YiByZXBvOiA1OiBNZVxuICAgIFB1c2ggdG8gR2l0SHViIHJlcG86IDM6IE1lXG4gICAgVmlldyBteSB3ZXNpdGUgOiA1XG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiam91cm5leVxudGl0bGUgQ3JlYXRlIG15IHdlYnNpdGVcbnNlY3Rpb24gQ3JlYXRlIGNvbnRlbnRcbiAgICBJbnN0YWxsIEh1Z286IDVcbiAgICBDcmVhdGUgd2Vic2l0ZTogNVxuICAgIEFwcGx5IHRoZW1lOiA1XG5zZWN0aW9uIFB1Ymxpc2ggdG8gR2l0SHViIFBhZ2VzXG4gICAgQ3JlYXRlIEdpdEh1YiByZXBvOiA1OiBNZVxuICAgIFB1c2ggdG8gR2l0SHViIHJlcG86IDM6IE1lXG4gICAgVmlldyBteSB3ZXNpdGUgOiA1XG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
+![image alt text](/mermaid-diagram-createyourwebsite.png)
 
-
-# Introduction 
+## Introduction
 
 Creating a static website is very easy. There are many static site generators like Hugo, jKeyll, NextJS, etc. In this blog post we will discuss about Hugo.
 
@@ -16,17 +15,17 @@ Hugo is very popular static website generator. It allows you to create a static 
 So let us dive in and get a website created in minutes.
 
 
-# Prerequisites 
+## Prerequisites
 
 1. Install Git in local
 2. GitHub login
 
-# Tools used
+## Tools used
 
 1. VS Code or any other editor
 2. Hugo 
 
-# Install Hugo
+## Install Hugo
 
 Installing Hugo is very easy. Below link has steps for installation.
 https://gohugo.io/getting-started/installing/
@@ -35,7 +34,7 @@ If on windows go to below link and download the zip file. Once the zip file is e
 
 https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_0.71.1_Windows-64bit.zip
 
-# Create Website 
+## Create Website 
 
 Create a folder which will have your website content. To create a website just enter below command in the VS Code terminal. If Hugo is installed correctly it will create a website.
 
@@ -54,7 +53,7 @@ This will convert all markdown content to HTML pages and publish to http://local
 
 Congratulation! you have built a basic website. But this is still not enough as it doesn't look professional. So let us make this website more professional by applying theme.
 
-# Apply theme
+## Apply theme
 
 Hugo has a range of existing themes. All the themes are listed at below website.
 
@@ -74,7 +73,7 @@ theme = "mytheme"
 
 Run the site again and you should see new theme applied.
 
-# Publish website
+## Publish website
 
 This step is really interesting. We will be using GitHub Pages for hosting the website. GitHub Pages is free for static websites. You can also use netlify or AWS or Azure or any other platform of your choice to host the website.
 
@@ -106,7 +105,7 @@ https://githubusername.github.io
 Waw!!! All done.
 
 
-# Conclusion
+## Conclusion
 
 As you can see it is very easy to create a website of your own using Hugo. We used GitHub Pages to host it which is free of cost. 
 

@@ -14,7 +14,7 @@ This repository implemetns a simple console application with following libraries
 3. Quartz : For scheduling job, also uses xml based job configuration 
 4. log4net : For logging 
 
-# Installation 
+## Installation 
 
 Build the solution in release mode and copy to server directory. Open command prompt in the directory. 
 
@@ -23,7 +23,7 @@ Run below command :
 ```SampleJobSchedulerWithDotNetCore.exe install -username “DOMAIN\Service Account” -password “Its A Secret” -servicename “SampleJobSchedulerWithDotNetCore” –autostart```
 
 
-# Repo
+## Repo
 
 You can find the repository here : 
 

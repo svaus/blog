@@ -148,7 +148,7 @@ choco install dotnetcore-sdk -version 3.1.0 --confirm --limit-output
 
 ```
 
-# Creating docker container for azp
+## Creating docker container for azp
 
 Build the docker images using docker build command.
 
