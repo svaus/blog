@@ -35,6 +35,8 @@ graph LR
 
 # Install Hugo
 
+https://gohugo.io/getting-started/installing/
+
 # Create Website 
 
 # Apply theme
