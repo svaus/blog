@@ -4,11 +4,11 @@ date: 2020-05-10T12:33:26+10:00
 draft: false
 ---
 
-Myself, Sanket Kumar Verma, and I love coding. Infact not coding but its kind of art, trying to understand complex business problems in a Developer way. Is there a difference? Yes. Finding most suited solution for the problem is very important.
+# Introduction
 
-Application Architect with 13+ years of experience working in Software Industry. Australian experience around 8 years while working in Sydney.
+Myself, Sanket Kumar Verma, and I love coding. Infact not coding but its kind of art, trying to understand complex business problems in a Developer way. Is there a difference? Yes. Finding most suited solution for the problem is very important. Application Architect with 13+ years of experience working in Software Industry. Australian experience around 8 years while working in Sydney.
 
-Tools and Technologies:
+# Tools and Technologies:
 •   Experience integration/application architect in Microservices, DevOps, Azure, Asp.Net/Core, Web API, APIM, Azure deployment, Azure Service Fabric, Azure Service Bus, RabbitMQ, ReactJS, Docker, Mulesoft 
 •   Git, TFS, Azure DevOps, Octopus, GitLab, Team City
 Strengths:
@@ -19,7 +19,7 @@ Strengths:
 •   Experience in building DevOps pipelines 
 
  
-Relevant Experience
+# Relevant Experience
 Architect from Jan-2016 till date:
 • Understanding the product from architecture perspective
 • Analyzing, detecting and recommending solutions for micro-services architecture
