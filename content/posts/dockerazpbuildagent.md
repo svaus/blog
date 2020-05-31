@@ -15,6 +15,12 @@ graph TD
   B-->C("Pull from Azure Container Registry")
   C-->D("Create Docker container instance")
   D-->E("Registers with Azure DevOps organisation")
+
+  style A fill:#8451a1,stroke:#333,stroke-width:4px
+  style B fill:#8451a1,stroke:#333,stroke-width:4px
+  style C fill:#8451a1,stroke:#333,stroke-width:4px
+  style D fill:#8451a1,stroke:#333,stroke-width:4px
+  style E fill:#8451a1,stroke:#333,stroke-width:4px
 {{</mermaid>}}
 
 Firstly create a Dockerfile where we can provide docker instructions. In this case I am using windows core 2019 image, but you can use any other images. 

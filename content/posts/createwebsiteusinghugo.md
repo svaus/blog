@@ -16,6 +16,15 @@ graph LR
   E-->F("Apply theme")
   F-->G("Publish website")
   G-->H("Conclusion")
+
+  style A fill:#8451a1,stroke:#333,stroke-width:4px
+  style B fill:#8451a1,stroke:#333,stroke-width:4px
+  style C fill:#8451a1,stroke:#333,stroke-width:4px
+  style D fill:#8451a1,stroke:#333,stroke-width:4px
+  style E fill:#8451a1,stroke:#333,stroke-width:4px
+  style F fill:#8451a1,stroke:#333,stroke-width:4px
+  style G fill:#8451a1,stroke:#333,stroke-width:4px
+  style H fill:#8451a1,stroke:#333,stroke-width:4px
 {{</mermaid>}}
 
 # Introduction 

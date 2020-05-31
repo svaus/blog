@@ -5,7 +5,6 @@ draft: false
 ---
 Coming soon...
 
-## Introduction 
 
 # Why?
 
