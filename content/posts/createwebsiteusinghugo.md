@@ -9,17 +9,17 @@ draft: false
 
 # Introduction 
 
-Creating a static website is very easy. There are many static site generators like Hugo, jKeyll, NextJS, etc. In this blog post we will discuss about Hugo. 
+Creating a static website is very easy. There are many static site generators like Hugo, jKeyll, NextJS, etc. In this blog post we will discuss about Hugo.
 
-Hugo is very popular static website generator. It allows you to create a static site in matter of minutes. Once we create this site, we need to host it some where. Hang on thats going to cost money. Naah!! Here comes GitHub Pages. It allows you to host static website for free. 
+Hugo is very popular static website generator. It allows you to create a static site in matter of minutes. Once we create this site, we need to host it some where. Hang on thats going to cost money. Naah!! Here comes GitHub Pages. It allows you to host static website for free.
 
 So let us dive in and get a website created in minutes.
 
 
 # Prerequisites 
 
-1. Install Git in local 
-2. GitHub login 
+1. Install Git in local
+2. GitHub login
 
 # Tools used
 
@@ -50,13 +50,13 @@ To see the website in local machine use below command
 ```
 hugo serve -D
 ```
-This will convert all markdown content to HTML pages and publish to http://localhost:1313. Browse to this URL in local and you will see your website. 
+This will convert all markdown content to HTML pages and publish to http://localhost:1313. Browse to this URL in local and you will see your website.
 
-Congratulation! you have built a basic website. But this is still not enough as it doesn't look professional. So let us make this website more professional by applying theme. 
+Congratulation! you have built a basic website. But this is still not enough as it doesn't look professional. So let us make this website more professional by applying theme.
 
 # Apply theme
 
-Hugo has a range of existing themes. All the themes are listed at below website. 
+Hugo has a range of existing themes. All the themes are listed at below website.
 
 https://themes.gohugo.io/
 
@@ -64,7 +64,7 @@ Pick any theme that you like. I am going to pick below theme.
 
 https://github.com/themefisher/kross-hugo
 
-Locate a ```themes``` folder in the directory and clone the theme. If you don't know how to clone, just download it and create a folder under themes call it as ```mytheme```. 
+Locate a ```themes``` folder in the directory and clone the theme. If you don't know how to clone, just download it and create a folder under themes call it as ```mytheme```.
 
 In order for the theme to reflect, go to ```config.toml``` file and change below configuration :
 
@@ -76,9 +76,9 @@ Run the site again and you should see new theme applied.
 
 # Publish website
 
-This step is really interesting. We will be using GitHub Pages for hosting the website. GitHub Pages is free for static websites. You can also use netlify or AWS or Azure or any other platform of your choice to host the website. 
+This step is really interesting. We will be using GitHub Pages for hosting the website. GitHub Pages is free for static websites. You can also use netlify or AWS or Azure or any other platform of your choice to host the website.
 
-1. Create a repository on GitHub named '{githubusername}{yourwebsitename}'. Set the name of the repository to {githubusername.github.io}.
+1. Create a repository on GitHub. Set the name of the repository to {githubusername.github.io}.
 
 ![image alt text](/CreateNewGitHubRepo.PNG)
 
@@ -90,7 +90,7 @@ This step is really interesting. We will be using GitHub Pages for hosting the w
 hugo
 ```
 
-This command will generate bunch of files in a folder called **public**. We need to push this folder to repository that we created. 
+This command will generate bunch of files in a folder called **public**. We need to push this folder to repository that we created.
 
 ```
 cd public
@@ -99,9 +99,9 @@ git add .
 git commit -m "Publishing my new website"
 git push origin master
 ```
-This is the most complex part, if you can do this few command (if you are a developer its easy, if not then might take couple more minutes), you will get your website 
+This is the most complex part, if you can do this few command (if you are a developer its easy, if not then might take couple more minutes), you will get your website.
 
-https://githubrepo.github.io
+https://githubusername.github.io
 
 Waw!!! All done.
 
