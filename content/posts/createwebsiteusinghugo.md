@@ -84,14 +84,50 @@ Pick any theme that you like. I am going to pick below theme.
 
 https://github.com/themefisher/kross-hugo
 
-Locate a ```themes``` folder in the directory and clone the theme. If you don't know how to clone, just download it.
+Locate a ```themes``` folder in the directory and clone the theme. If you don't know how to clone, just download it and create a folder under themes call it as ```mytheme```. 
+
+In order for the theme to reflect, go to ```config.toml``` file and change below configuration :
+
+```
+theme = "mytheme"
+```
+
+Run the site again and you should see new theme applied.
 
 # Publish website
 
 This step is really interesting. We will be using GitHub Pages for hosting the website. GitHub Pages is free for static websites. You can also use netlify or AWS or Azure or any other platform of your choice to host the website. 
 
-1. Create a repository on GitHub named '{githubusername}{yourwebsitename}'
+1. Create a repository on GitHub named '{githubusername}{yourwebsitename}'. Set the name of the repository to {githubusername.github.io}.
+
+![image alt text](/CreateNewGitHubRepo.PNG)
+
+![image alt text](/SetGitHubPagesSetting.PNG)
+
+2. Final step is to push the changes. Run below command
+
+```
+hugo
+```
+
+This command will generate bunch of files in a folder called **public**. We need to push this folder to repository that we created. 
+
+```
+cd public
+git clone 'githubrepo.github.io'
+git add .
+git commit -m "Publishing my new website"
+git push origin master
+```
+This is the most complex part, if you can do this few command (if you are a developer its easy, if not then might take couple more minutes), you will get your website 
+
+https://githubrepo.github.io
+
+Waw!!! All done.
 
 
 # Conclusion
 
+As you can see it is very easy to create a website of your own using Hugo. We used GitHub Pages to host it which is free of cost. 
+
+Enjoy!!!
