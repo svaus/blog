@@ -12,3 +12,13 @@ React application these days is very easy to get started. However after using "g
 
 Managing configuration is one interesting scenario, I found in React App. It wasn't so out of the box thing for me. Managing configuration in an application that gets compiled and is available in clients browser, sounds wierd. Why do you even need configuration for such thing? Hang on!! Here comes DevOps. You should always build once and deploy as many times you like. It could be development, QA, Production environment. React App and SPA IN React is powerful, but ultimately is compiled(bundled) into one JavaScript file which is downloaded in the client browser.
 
+# Tools used
+
+- Visual Studio Code
+- GitHub
+- Azure DevOps 
+
+# Set configuration in React App in webpack
+
+# Conclusion
+
