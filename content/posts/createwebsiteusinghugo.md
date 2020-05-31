@@ -61,7 +61,7 @@ https://themes.gohugo.io/
 
 Pick any theme that you like. I am going to pick below theme. 
 
-https://github.com/themefisher/kross-hugo
+https://github.com/luizdepra/hugo-coder.git
 
 Locate a ```themes``` folder in the directory and clone the theme. If you don't know how to clone, just download it and create a folder under themes call it as ```mytheme```.
 
@@ -70,6 +70,7 @@ In order for the theme to reflect, go to ```config.toml``` file and change below
 ```
 theme = "mytheme"
 ```
+Apply basic configuration by copying content of config.toml from examplesite in the theme folder to your root config.toml file. Make appropiate changes.
 
 Run the site again and you should see new theme applied.
 
