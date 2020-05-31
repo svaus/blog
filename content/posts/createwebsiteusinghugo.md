@@ -4,28 +4,8 @@ date: 2020-05-31T11:04:26+10:00
 draft: false
 ---
 
+[![](https://mermaid.ink/img/eyJjb2RlIjoiam91cm5leVxudGl0bGUgQ3JlYXRlIG15IHdlYnNpdGVcbnNlY3Rpb24gQ3JlYXRlIGNvbnRlbnRcbiAgICBJbnN0YWxsIEh1Z286IDVcbiAgICBDcmVhdGUgd2Vic2l0ZTogNVxuICAgIEFwcGx5IHRoZW1lOiA1XG5zZWN0aW9uIFB1Ymxpc2ggdG8gR2l0SHViIFBhZ2VzXG4gICAgQ3JlYXRlIEdpdEh1YiByZXBvOiA1OiBNZVxuICAgIFB1c2ggdG8gR2l0SHViIHJlcG86IDM6IE1lXG4gICAgVmlldyBteSB3ZXNpdGUgOiA1XG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiam91cm5leVxudGl0bGUgQ3JlYXRlIG15IHdlYnNpdGVcbnNlY3Rpb24gQ3JlYXRlIGNvbnRlbnRcbiAgICBJbnN0YWxsIEh1Z286IDVcbiAgICBDcmVhdGUgd2Vic2l0ZTogNVxuICAgIEFwcGx5IHRoZW1lOiA1XG5zZWN0aW9uIFB1Ymxpc2ggdG8gR2l0SHViIFBhZ2VzXG4gICAgQ3JlYXRlIEdpdEh1YiByZXBvOiA1OiBNZVxuICAgIFB1c2ggdG8gR2l0SHViIHJlcG86IDM6IE1lXG4gICAgVmlldyBteSB3ZXNpdGUgOiA1XG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
 
-{{<mermaid>}}
-
-graph LR
-  A("Introduction")
-  A-->B("Prerequisites")
-  B-->C("Tools")
-  C-->D("Install Hugo")
-  D-->E("Create Website")
-  E-->F("Apply theme")
-  F-->G("Publish website")
-  G-->H("Conclusion")
-
-  style A fill:#8451a1,stroke:#333,stroke-width:4px
-  style B fill:#8451a1,stroke:#333,stroke-width:4px
-  style C fill:#8451a1,stroke:#333,stroke-width:4px
-  style D fill:#8451a1,stroke:#333,stroke-width:4px
-  style E fill:#8451a1,stroke:#333,stroke-width:4px
-  style F fill:#8451a1,stroke:#333,stroke-width:4px
-  style G fill:#8451a1,stroke:#333,stroke-width:4px
-  style H fill:#8451a1,stroke:#333,stroke-width:4px
-{{</mermaid>}}
 
 # Introduction 
 
@@ -131,3 +111,29 @@ Waw!!! All done.
 As you can see it is very easy to create a website of your own using Hugo. We used GitHub Pages to host it which is free of cost. 
 
 Enjoy!!!
+
+
+{{<mermaid>}}
+
+graph LR
+  A("Introduction")
+  A-->B("Prerequisites")
+  B-->C("Tools")
+  C-->D("Install Hugo")
+  D-->E("Create Website")
+  E-->F("Apply theme")
+  F-->G("Publish website")
+  G-->H("Conclusion")
+
+  classDef flowstyle fill:#8451a1,stroke:#333,stroke-width:4px,font:20px;
+
+  style A fill:#8451a1,stroke:#333,stroke-width:4px,font:40px
+  style B fill:#8451a1,stroke:#333,stroke-width:4px
+  style C fill:#8451a1,stroke:#333,stroke-width:4px
+  style D fill:#8451a1,stroke:#333,stroke-width:4px
+  style E fill:#8451a1,stroke:#333,stroke-width:4px
+  style F fill:#8451a1,stroke:#333,stroke-width:4px
+  style G fill:#8451a1,stroke:#333,stroke-width:4px
+  style H fill:#8451a1,stroke:#333,stroke-width:4px
+{{</mermaid>}}
+
