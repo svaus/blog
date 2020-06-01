@@ -32,4 +32,4 @@ How about first time load? Well the compiled version might be around 3-4 MB,whic
 
 ## Conclusion
 
-Blazor is definitely a promising technology and is going to make full stack development complete in Dotnet ecosystem. So we can build SPA, API, Jobs, Server side MVC, Windows, Progressive Web App, mamy more in single language and framework. Its truely one framework for all.
+Blazor is definitely a promising technology and is going to make full stack development complete in Dotnet ecosystem. So we can build SPA, API, Jobs, Server side MVC, Windows, Progressive Web App, many more in single language and framework. Its truely one framework for all.
