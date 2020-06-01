@@ -18,7 +18,18 @@ React, Angular and Vue provide a component based programming model. It allows de
 
 First release was announced on May-2020 which is ready for Production  use.
 
+Second release is going to be Nov-2020 with Dotnet version 5.
 
 ## What?
 
+## The Aww Factor
+
+There is something unique in this technology which is creating buzzz. It runs Dll on browser. Yes, when we run the application onto the browser all the Dlls are downloaded and these Dlls makes the application and are responsible for running the application in the browser. That is absolutely unique technology. Till date we had JavaScript running on the browser but now we can run assemblies compiled in various languages in the browser. This changes a lot of things. Few says its the end of JavaScript dominance in Single Page Application. But thats very hard to say and actual result will be when different companies will start adopting it.
+
+This also mean that we can host this as a static website in say GitHub pages, Azure Static Website, Azure storage, CDN, S3 Bucket, etc.
+
+How about first time load? Well the compiled version might be around 3-4 MB,which is not bad but still on the higher side. But good news is Microsoft team is working on it make the packaged version even smaller. May be better compression or something. 
+
 ## Conclusion
+
+Blazor is definitely a promising technology and is going to make full stack development complete in Dotnet ecosystem. So we can build SPA, API, Jobs, Server side MVC, Windows, Progressive Web App, mamy more in single language and framework. Its truely one framework for all.
