@@ -3,7 +3,11 @@ title: "Introuction to Blazor"
 date: 2020-05-25T12:51:37+10:00
 draft: false
 ---
-Blazor Web Assembly is the new technology announced by Microsoft in Build conference 2020. This has been long time coming. 
+Blazor Web Assembly is the new technology announced by Microsoft in Build conference 2020. This has been long time coming. Let us look at few basic things before we do a deep dive into Blazor. 
+
+Here in this blog I will write my point of view for Blazor. This will help developers who are getting started with Blazor to understand why? when? what's not there?
+
+I will keep reviewing this blog as an when I discover or learn more about this newframework.
 
 ## Why?
 
