@@ -20,7 +20,24 @@ First release was announced on May-2020 which is ready for Production  use.
 
 Second release is going to be Nov-2020 with Dotnet version 5.
 
-## What?
+There are new features planned:
+
+1. Hot reloading
+2. Ahead of time compilation
+3. CSS isolation
+and many more...
+
+## What's not there?
+
+It is still early phase for me discovering various features of Blazor. There are few things that still not there
+
+1. Support for storybook - Storybook is very useful library for creating and testing component library. I couldn't find any equivalent of it in Blazor.
+
+2. Support for styleguidist - similar to storybook couldn't find support for styleguist.
+
+3. Memoisation or technique to avoid re-rendering of state has not changed. There might something available for this will need to explore more to see if it is supported.
+
+There could be many more and will discover it in coming days.
 
 ## The Aww Factor
 

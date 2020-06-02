@@ -34,6 +34,9 @@ If on windows go to below link and download the zip file. Once the zip file is e
 
 https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_0.71.1_Windows-64bit.zip
 
+https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_extended_0.71.1_Windows-64bit.zip
+
+
 ## Create Website 
 
 Create a folder which will have your website content. To create a website just enter below command in the VS Code terminal. If Hugo is installed correctly it will create a website.
