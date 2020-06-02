@@ -1,5 +1,5 @@
 ---
-title: "Introuction to Blazor"
+title: "Introduction to Blazor"
 date: 2020-05-25T12:51:37+10:00
 draft: false
 ---
@@ -7,7 +7,7 @@ Blazor Web Assembly is the new technology announced by Microsoft in Build confer
 
 Here in this blog I will write my point of view for Blazor. This will help developers who are getting started with Blazor to understand why? when? what's not there?
 
-I will keep reviewing this blog as an when I discover or learn more about this newframework.
+I will keep reviewing this blog as an when I discover or learn more about this new framework.
 
 ## Why?
 
@@ -39,7 +39,9 @@ It is still early phase for me discovering various features of Blazor. There are
 
 2. Support for styleguidist - similar to storybook couldn't find support for styleguist.
 
-3. Memoisation or technique to avoid re-rendering of state has not changed. There might something available for this will need to explore more to see if it is supported.
+3. Memoisation or technique to avoid re-rendering if state has not changed. There might something available for this will need to explore more to see if it is supported.
+
+4. Micro-frontend implementation - to be fair we don't have many framework that implements a true micro-frontend. There might be a possibility to use micro-frontend architecture and to be able to dynamically load a module written in Angular or React or Vue to the Blazor site. This could be possible so will explore more. However, if I just want to use Blazor for micro-frontend, it could be possible which is great. I haven't seen an implementation of it yet, so will explore. 
 
 There could be many more and will discover it in coming days.
 
