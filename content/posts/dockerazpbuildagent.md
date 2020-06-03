@@ -1,7 +1,7 @@
 ---
 title: "Docker azure pipeline build agent"
 date: 2020-05-10T16:08:37+10:00
-draft: false
+draft: true
 ---  
 
 Creating a docker build agent for azure pipeline is very easy. There are few simple steps. We will be using chocoletey to create this agent. 
